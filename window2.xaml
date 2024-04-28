@@ -1,0 +1,12 @@
+﻿<Window x:Class="Kviz.window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kviz"
+        mc:Ignorable="d"
+        Title="window2" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="elemzes" Margin="50,10,50,10" FontSize="15" TextAlignment="Left" VerticalScrollBarVisibility="Visible" IsReadOnly="True" TextWrapping="Wrap" MaxLength="5000" Background="Black" Foreground="White" BorderBrush="Black" SelectionBrush="White" />
+    </Grid>
+</Window>
